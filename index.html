@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count Down App</title>
+    <!-- Style-Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container flex">
+        <div class="date-time-selector">
+            <input type="datetime-local" name="date-time" id="date-time" value="2023-02-21">
+            <input type="submit" value="submit" id="submit">
+        </div>
+        <div class="display-count-down flex">
+            <div class="text">
+                <div class="font-size" id="days">0</div>
+                <div>Day</div>
+            </div>
+            <div class="text">
+                <div class="font-size" id="hours">0</div>
+                <div>Hour</div>
+            </div>
+            <div class="text">
+                <div class="font-size" id="minutes">0</div>
+                <div>Minute</div>
+            </div>
+            <div class="text">
+                <div class="font-size" id="seconds">0</div>
+                <div>Seconds</div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto','san-serif';
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    text-align: center;
+    font-weight: 700;
+}
+.font-size{
+    font-size: 80px;
+}
+.container{
+    height: 100vh;
+    flex-direction: column;
+    gap: 50px;
+    background-color: lightgoldenrodyellow;
+}
+.display-count-down{
+   gap: 200px;
+   background-color: lightseagreen;
+   padding: 15px 20px;
+   border-radius: 15px;
+}
+.date-time-selector{
+    font-size: 25px;
+}
+input:hover{
+    cursor: pointer;
+}
+input{
+    font-size: 23px;
+    margin: 10px;
+}
+input[type=submit]{
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: none;
+    background-color: lightgreen;
+}
+input[type=submit]:hover{
+    background-color: rgb(58, 196, 58);
+    transition: 0.5s ease-out;
+}
